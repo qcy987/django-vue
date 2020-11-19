@@ -20,6 +20,6 @@ from my_app.user import *
 
 urlpatterns = [
     re_path('^static/upload/(?P<path>.*)$', serve, {'document_root': '/static/upload/'}),
-    re_path('register/', Register.as_view()),
+    re_path('/', Register.as_view()),
     re_path('get_code/', GetCode.as_view()),
 ]

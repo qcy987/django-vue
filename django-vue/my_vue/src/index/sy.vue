@@ -1,5 +1,5 @@
 //<template>
-  <div>
+  <div class='wbk'>
     <!-- 头部区域 -->
     <headers></headers>
     <el-button>Cilck in</el-button>
@@ -21,5 +21,4 @@ export default {
 </script>
 
 <style>
-
 </style>
